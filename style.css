@@ -1,0 +1,2118 @@
+@charset "utf-8";
+
+/* ---------------------default */
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+/* ------------------------ALL */
+body {
+  margin: 0;
+  padding: 0;
+  color: #352f2e;
+  font-family: "Hiragino Mincho ProN", "ヒラギノ明朝 ProN W3", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif !important;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: left;
+  line-height: 2;
+  -webkit-text-size-adjust: 100%;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 0;
+}
+
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  position: relative;
+}
+
+
+.inner {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+.sp {
+  display: none;
+}
+
+
+
+/* ---------------------ヘッダーここから */
+header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 25px;
+  width: 100%;
+  z-index: 1000;
+}
+
+div.top-box {
+  width: 100%;
+  background-color: #da6b71;
+}
+
+div.top {
+  width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+div .top h1 {
+  font-size: 45px;
+  margin-right: 505px;
+}
+
+div .top img {
+  height: 75px;
+  width: 94px;
+  margin-right: -20px;
+  position: relative;
+  top: 18px;
+}
+
+div .top p {
+  font-size: 29px;
+  margin-top: 30px;
+}
+
+div .top p img {
+  height: 54px;
+  width: 25px;
+  margin-top: -20px;
+  margin-right: 10px;
+  position: relative;
+  top: 15px;
+}
+
+.header-list {
+  width: 100%;
+}
+
+header ul {
+  width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+header ul img {
+  width: 19px;
+  height: 38px;
+  margin-right: 13px;
+}
+
+header ul li a {
+  font-size: 25px;
+  color: #4e4d4d;
+  margin-bottom: 25px;
+  margin-right: 30px;
+  letter-spacing: 2px;
+  position: relative;
+  bottom: 5px;
+}
+
+main {
+  position: relative;
+  top: 200px;
+}
+
+/* -----------------------------キーヴィジュアルここから */
+#kv {
+  margin-bottom: 45px;
+  margin-top: 11px;
+  display: block;
+}
+
+#kv img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+/* -----------------------------mainここから */
+#center-item div.inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* -----------------------------main leftここから */
+#left {
+  margin-left: 108px;
+  margin-bottom: 5px;
+}
+
+/* -----------------------------ピックアップここから */
+#pick {
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-bottom: 47px;
+  padding: 13px 23px 0 23px;
+}
+
+#pick img {
+  width: 100%;
+}
+
+#pick p {
+  text-align: center;
+  font-size: 35px;
+  margin-top: -12px;
+  letter-spacing: 10px;
+}
+
+#pick p img {
+  height: 28px;
+  width: 28px;
+  margin: 0 15px 0 5px;
+}
+
+/* ----------------------------------コンサート情報ここから */
+#info {
+  background-image: url(img/concert.bg.jpg);
+  padding: 0 5px 13px 5px;
+}
+
+#info h2 {
+  position: relative;
+  bottom: 10px;
+  font-size: 43px;
+  letter-spacing: 20px;
+  margin-left: 40px;
+  margin-bottom: -30px;
+  margin-top: -20px;
+}
+
+.infobox {
+  margin-left: 29px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+.infobox a {
+  font-size: 25px;
+  color: #390cfb;
+  position: relative;
+  bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.infobox img {
+  width: 30px;
+  height: 30px;
+}
+
+
+.infobox:nth-child(2) {
+  border-bottom: 1px dotted #000;
+}
+
+.infobox:nth-child(3) {
+  border-bottom: 1px dotted #000;
+}
+
+.info-item {
+  display: flex;
+  justify-content: start;
+  font-size: 25px;
+  line-height: 1.2;
+  margin-top: 15px;
+}
+
+.info-item .day {
+  width: 175px;
+  height: 82px;
+  padding-right: 38px;
+  border-right: 1px dotted #000;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.place {
+  padding-left: 37px;
+  padding-top: 25px;
+}
+
+.place a {
+  margin-left: 266px;
+}
+
+.infolink {
+  height: 61px;
+  background-color: #000;
+  text-align: center;
+  margin: 8px 100px 0 100px;
+}
+
+.infolink a {
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 5px;
+  letter-spacing: 5px;
+}
+
+/* -----------------------------サイドメニューここから */
+#right {
+  width: 334px;
+  margin-right: 91px;
+  margin-left: 50px;
+}
+
+/* -----------------------------サイドメニュー(ニュース)ここから */
+#news {
+  background-color: #e5e4e4;
+  margin-bottom: 12px;
+  border: 1px solid #eeeded;
+  border-radius: 10px;
+  padding: 0 20px;
+}
+
+#news h3 {
+  font-size: 25px;
+  margin-bottom: -10px;
+  letter-spacing: 1px;
+}
+
+#news .news-item {
+  height: 47px;
+  border-bottom: 1px dotted #000;
+  padding-bottom: 13px;
+  line-height: 1.7;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+#news .news-item a {
+  color: #000;
+}
+
+#news .day {
+  margin-top: 5px;
+  margin-left: 12px;
+}
+
+#news .news-title {
+  margin-left: 35px;
+}
+
+#news .newslink a {
+  margin-left: 155px;
+  font-size: 18px;
+  color: #390cfb;
+  letter-spacing: 1px;
+  position: relative;
+  top: 4px;
+}
+
+#news .newslink img {
+  height: 25px;
+  width: 25px;
+  margin-bottom: -10px;
+}
+
+#right img {
+  margin-bottom: 10px;
+}
+
+/* -----------------------------サイドメニュー(SNS)ここから */
+
+#sns .fa {
+  height: 50px;
+  width: 338px;
+  font-size: 41px;
+  border: 2px solid #9ea0f5;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+#sns img {
+  height: 46px;
+  width: 50px;
+  margin-left: 17px;
+  margin-right: 23px;
+}
+
+#sns .fa a {
+  color: #4b699d;
+  font-family: "ヒラギノ角ゴ Pro W3";
+  font-weight: normal;
+  position: relative;
+  bottom: 15px;
+}
+
+#sns .insta {
+  height: 50px;
+  width: 338px;
+  font-size: 41px;
+  border: 2px solid #cc96c9;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+#sns .insta a {
+  color: #ba74b5;
+  font-family: "ヒラギノ角ゴ Pro W3";
+  font-weight: normal;
+  position: relative;
+  bottom: 15px;
+}
+
+#sns .x {
+  height: 50px;
+  width: 338px;
+  font-size: 41px;
+  border: 2px solid #211212;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+#sns .x a {
+  color: #211212;
+  font-family: "ヒラギノ角ゴ Pro W3";
+  font-weight: normal;
+  position: relative;
+  bottom: 15px;
+  left: 70px;
+}
+
+/* -----------------------------Tano交響楽団についてここから */
+
+#about {
+  width: 1268px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding-top: 35px;
+  padding-bottom: 8px;
+  background-image: url(img/Tano交響楽団.png);
+  left: 35px;
+}
+
+#about h2 {
+  font-size: 47px;
+  margin-left: 24px;
+  letter-spacing: 8px;
+}
+
+#about p {
+  font-size: 30px;
+  line-height: 1.3;
+  margin-left: 35px;
+  letter-spacing: 2px;
+  margin-top: -5px;
+}
+
+
+#about div .about-link {
+  font-size: 30px;
+  margin-left: 427px;
+  margin-bottom: 20px;
+}
+
+#about div a {
+  position: relative;
+  bottom: 10px;
+  color: #3406fd;
+}
+
+
+#about img {
+  height: 40px;
+  width: 40px;
+}
+
+/* -----------------------------チケットここから */
+#ticket {
+  width: 1200px;
+  height: 266px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-image: url(img/チケット.jpg);
+}
+
+#ticket h2 {
+  font-size: 47px;
+  margin-bottom: -20px;
+  margin-left: 24px;
+}
+
+#ticket p {
+  font-size: 25px;
+  margin-left: 35px;
+}
+
+#ticket div.button {
+  width: 1200px;
+}
+
+#ticket ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+  text-align: center;
+
+}
+
+#ticket ul li {
+  height: 55px;
+  width: 350px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: rgba(239, 141, 165, .64);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#ticket ul li a {
+  color: #352f2e;
+  font-size: 30px;
+}
+
+#ticket .ticket-link {
+  margin-top: 30px;
+}
+
+#ticket .ticket-link a {
+  font-size: 30px;
+  margin-left: 650px;
+  color: #3406fd;
+  position: relative;
+  bottom: 10px;
+}
+
+#ticket .ticket-link img {
+  width: 43px;
+  height: 43px;
+}
+
+/* -----------------------------フッターここから */
+footer {
+  width: 100%;
+  background-color: #e17240;
+  color: #000;
+  position: relative;
+  top: 190px;
+}
+
+div.footer-box {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+footer .address {
+  margin-left: 92px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+}
+
+footer .ftinner {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 6px;
+}
+
+footer h3 {
+  font-size: 20px;
+  margin-right: 200px;
+  margin-top: 7px;
+}
+
+footer .footer-list {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 88px;
+  font-size: 17px;
+  margin-top: 7px;
+}
+
+footer .ftinner ul li a {
+  position: relative;
+  bottom: 3px;
+  border-bottom: 1px solid #000;
+  color: #000;
+  padding-bottom: 5px;
+}
+
+footer p {
+  font-size: 14px;
+  margin-left: 6px;
+  line-height: 1.1;
+  margin-bottom: 5px;
+}
+
+footer .footer-sns {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-left: 92px;
+}
+
+footer .footer-sns p {
+  margin-right: 22px;
+}
+
+footer .footer-sns ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
+footer .footer-sns ul li a {
+  margin-bottom: 10px;
+  position: relative;
+  bottom: 5px;
+  color: #000;
+}
+
+footer .footer-list img {
+  width: 17px;
+  height: 17px;
+  margin-right: 30px;
+}
+
+footer .footer-sns img {
+  width: 16px;
+  height: 16px;
+  padding-bottom: 3px;
+  margin-right: 3px;
+  margin-left: 12px;
+}
+
+footer .footer-sns img .x {
+  width: 30px;
+  height: 30px;
+}
+
+.top-link a img {
+  width: 53px;
+  height: 53px;
+  margin-left: 725px;
+  position: relative;
+  bottom: 5px;
+}
+
+/* -------------------------------------aboutページここから */
+
+/* -------------------------------------------メインここから */
+#tkyou-main {
+  margin-top: 30px;
+}
+
+#site-map {
+  margin-top: -25px;
+  margin-bottom: 15px;
+  margin-left: -60px;
+  font-size: 18px;
+}
+
+.tkyou-about {
+  margin-top: -20px;
+}
+
+.tkyou-about img {
+  width: 670px;
+  height: 300px;
+  margin-left: 35px;
+  margin-top: 15px;
+}
+
+.tkyou-about h2 {
+  text-align: center;
+  margin-top: -50px;
+  font-size: 50px;
+}
+
+.tkyou-about p {
+  font-size: 28px;
+  text-align: center;
+  line-height: 1.4;
+  margin-top: -10px;
+  font-weight: normal;
+}
+
+/* -------------------------------------conductorここから */
+
+.conductor {
+  display: flex;
+  width: 763px;
+  height: 321px;
+  margin-top: 10px;
+}
+
+.conductor h3 {
+  margin-left: 18px;
+  font-size: 31px;
+  font-weight: bold;
+}
+
+.conductor h4 {
+  margin-left: 133px;
+  font-size: 31px;
+  position: relative;
+  bottom: 25px;
+  font-weight: bold;
+}
+
+.conductor p {
+  font-size: 24px;
+  margin-left: 25px;
+  position: relative;
+  bottom: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+/* -------------------------------------concertmasterここから */
+
+.concertmaster {
+  display: flex;
+  justify-content: flex-end;
+  width: 763px;
+  height: 321px;
+  margin-top: 20px;
+}
+
+.concertmaster h3 {
+  font-size: 31px;
+  font-weight: bold;
+  margin-top: 15px
+}
+
+.concertmaster h4 {
+  margin-left: 115px;
+  margin-right: 50px;
+  font-size: 31px;
+  position: relative;
+  bottom: 25px;
+  font-weight: bold;
+}
+
+.concertmaster p {
+  font-size: 24px;
+  position: relative;
+  bottom: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+.concertmaster img {
+  position: relative;
+  bottom: 25px;
+}
+
+/* -------------------------------------infomationページここから */
+
+/* -------------------------------------------メインここから */
+
+.infomation h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: -25px;
+}
+
+.info-top img {
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+
+.infomation-box {
+  display: flex;
+  padding: 10px 0;
+  height: 230px;
+  width: 800px;
+  border-top: 1px solid #000;
+}
+
+.infomation-box:nth-child(5) {
+  border-bottom: 1px solid #000;
+}
+
+.infomation-box img {
+  width: 350px;
+  height: 225px;
+  margin-left: 35px;
+  margin-right: 38px;
+}
+
+.info-about h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.info-about span {
+  color: red;
+}
+
+.info-about ul {
+  margin-bottom: 23px;
+}
+
+.info-about li {
+  margin-left: 13px;
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.info-about .shousai {
+  border: 1px solid #267dcf;
+  width: 343px;
+  height: 42px;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.info-about .shousai a {
+  color: #267dcf;
+}
+
+.info-about .info-ticket {
+  background: #267dcf;
+  width: 343px;
+  height: 42px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.info-about .info-ticket a {
+  color: #fff;
+}
+
+.page-link ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.page-link ul li {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #000;
+  text-align: center;
+  font-size: 17px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.page-link ul li a {
+  color: #352f2e;
+}
+
+/* --------------------------------------news */
+.news-top h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: -25px;
+}
+
+.news-top p {
+  font-size: 20px;
+  margin-top: -20px;
+  margin-left: 55px;
+}
+
+.news-contents a {
+  color: #352f2e;
+}
+
+.news-contents p {
+  font-size: 20px;
+  margin-left: 16px;
+}
+
+.news-all {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 20px;
+}
+
+.news-all div {
+  font-size: 20px;
+  height: 48px;
+  width: 195px;
+  margin-left: 4px;
+  text-align: center;
+}
+
+.news-all a {
+  position: relative;
+  top: 5px;
+}
+
+.news-all .news1 {
+  background-color: #267dcf;
+  border: 1px solid #267dcf;
+}
+
+.news-all .news1::after {
+  content: '▼';
+  position: relative;
+  top: 30px;
+  right: 40px;
+  color: #267dcf;
+}
+
+.news-all .news1 a {
+  color: #fff;
+}
+
+.news-all .news2 {
+  border: 1px solid #e17240;
+}
+
+.news-all .news2 a {
+  color: #e17240;
+}
+
+.news-all .news3 {
+  border: 1px solid #8f82bc;
+}
+
+.news-all .news3 a {
+  color: #8f82bc;
+}
+
+.news-box {
+  display: flex;
+  height: 23px;
+  width: 623px;
+  padding: 16px 0 26px 0;
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  margin-left: 67px;
+}
+
+.news-days {
+  width: 200px;
+  margin-right: -40px
+}
+
+.news-list {
+  width: 450px;
+}
+
+.news-box-last {
+  display: flex;
+  justify-content: flex-start;
+  height: 23px;
+  width: 623px;
+  padding: 16px 0 36px 0;
+  margin-top: 10px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-left: 57px;
+}
+
+/* ------------------------------------news-notice---------- */
+
+.news-notice {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 20px;
+}
+
+.news-notice div {
+  font-size: 20px;
+  height: 48px;
+  width: 195px;
+  margin-left: 4px;
+  text-align: center;
+}
+
+.news-notice a {
+  position: relative;
+  top: 5px;
+}
+
+.news-notice .news1 {
+  border: 1px solid #267dcf;
+}
+
+.news-notice .news1 a {
+  color: #267dcf;
+}
+
+.news-notice .news2 {
+  border: 1px solid #e17240;
+  background: #e17240;
+}
+
+.news-notice .news2 a {
+  color: #fff;
+}
+
+.news-notice .news2::after {
+  content: '▼';
+  position: relative;
+  top: 30px;
+  right: 40px;
+  color: #e17240;
+}
+
+.news-notice .news3 {
+  border: 1px solid #8f82bc;
+}
+
+.news-notice .news3 a {
+  color: #8f82bc;
+}
+
+/* ------------------------------------news-ticket--------------- */
+.news-ticket {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 20px;
+}
+
+.news-ticket div {
+  font-size: 20px;
+  height: 48px;
+  width: 195px;
+  margin-left: 4px;
+  text-align: center;
+}
+
+.news-ticket a {
+  position: relative;
+  top: 5px;
+}
+
+.news-ticket .news1 {
+  border: 1px solid #267dcf;
+}
+
+.news-ticket .news1 a {
+  color: #267dcf;
+}
+
+.news-ticket .news2 {
+  border: 1px solid #e17240;
+}
+
+.news-ticket .news2 a {
+  color: #e17240;
+}
+
+.news-ticket .news3 {
+  background: #8f82bc;
+  border: 1px solid #8f82bc;
+}
+
+.news-ticket .news3 a {
+  color: #fff;
+}
+
+.news-ticket .news3::after {
+  content: '▼';
+  position: relative;
+  top: 30px;
+  right: 40px;
+  color: #8f82bc;
+}
+
+/* ---------------------------------------contact/ticket */
+
+.contact-main h2 {
+  font-size: 50px;
+  margin-top: -25px;
+  font-weight: bold;
+}
+
+.contact-main div {
+  width: 805px;
+  height: 33px;
+  border: 1px solid #000;
+  background: #ec9fa3;
+}
+
+.contact-main p {
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  bottom: 10px;
+  margin-left: 5px;
+}
+
+.contact-main h3 {
+  width: 797px;
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+
+.contact h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact-top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contact-top p {
+  line-height: 1.4;
+  margin-top: -3px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.contact-item1 {
+  margin-right: 104px;
+  margin-bottom: 34px;
+}
+
+.contact-item3 {
+  margin-right: 191px;
+  margin-bottom: 24px;
+}
+
+.contact-top img {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.contact-top a {
+  color: #267dcf;
+  border-bottom: 1px solid #267dcf;
+}
+
+.contact-bottom {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.contact-map {
+  margin-left: 128px;
+  margin-bottom: 15px;
+}
+
+#ticket-buy h2 {
+  font-size: 50px;
+  font-weight: bold;
+  height: 118px;
+  width: 809px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-bottom: 39px;
+}
+
+.buy-button {
+  display: flex;
+  justify-content: center;
+}
+
+.buy-button div {
+  width: 329px;
+  height: 64px;
+  background: #76aadb;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.buy-button .pc img {
+  height: 19px;
+  width: 22px;
+  position: relative;
+  top: 3px;
+}
+
+.buy-button .tel img {
+  height: 19px;
+  width: 22px;
+  position: relative;
+  top: 3px;
+}
+
+.buy-button div a {
+  color: #000;
+  position: relative;
+  top: 13px;
+}
+
+#ticket-buy h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.buy-tel {
+  margin-left: 58px;
+  font-size: 18px;
+}
+
+.buy-time {
+  font-size: 17px;
+  line-height: 1.4;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+
+/* -----------------------------------------------------------------
+スマホ
+----------------------------------------------------------------- */
+@media screen and (max-width: 430px) {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .inner {
+    width: 100%;
+  }
+
+  /* ------------------------header--------------------------- */
+  header {
+    height: auto;
+    padding-bottom: 0;
+    padding-top: 10px;
+    margin-bottom: -30px;
+  }
+
+  .sp {
+    display: block;
+  }
+
+
+  .top-ikon img {
+    display: none;
+  }
+
+  div.top h1 {
+    margin-right: 0;
+    font-size: 30px;
+    margin-left: 30px;
+  }
+
+  .top-box p {
+    display: none;
+  }
+
+  #nav-toggle {
+    position: fixed;
+    top: 25px;
+    right: 15px;
+    height: 32px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  #nav-toggle>div {
+    position: relative;
+    width: 40px;
+  }
+
+  #nav-toggle>div span {
+    width: 100%;
+    height: 2px;
+    left: 0;
+    display: block;
+    background: #000;
+    position: absolute;
+    transition: transform .3s ease, top .5s ease;
+  }
+
+  #nav-toggle>div span:nth-child(1) {
+    top: 2px;
+  }
+
+  #nav-toggle>div span:nth-child(2) {
+    top: 16px;
+  }
+
+  #nav-toggle>div span:nth-child(3) {
+    top: 30px;
+  }
+
+  .open #nav-toggle>div span:nth-child(1) {
+    top: 15px;
+    transform: rotate(45deg);
+  }
+
+  .open #nav-toggle>div span:nth-child(2) {
+    width: 0;
+  }
+
+  .open #nav-toggle>div span:nth-child(3) {
+    top: 15px;
+    transform: rotate(-45deg);
+  }
+
+  .header-list {
+    background: #fff;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    z-index: 990;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    transform: translateX(-100%);
+    transition: transform 1s ease;
+  }
+
+  .open .header-list {
+    transform: translateX(0) !important;
+  }
+
+  .header-list ul {
+    display: block;
+  }
+
+  .header-list ul img {
+    display: none;
+  }
+
+  .header-list ul li {
+    position: relative;
+    margin: 0 !important;
+    text-align: left;
+    transform: translateX(-200px);
+    transition: transform 1.3s ease;
+  }
+
+  .open .header-list ul li {
+    transform: translateX(0);
+  }
+
+  .header-list ul li a {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  .header-list .sp a img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .header-list .sp {
+    font-size: 25px;
+    color: #000;
+    line-height: 1.2;
+    margin-top: 5px;
+  }
+
+  .header-list .sp p img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  #kv {
+    margin-top: -130px;
+    margin-bottom: 0;
+  }
+
+
+
+  /* ------------------------center-item--------------------------- */
+  #center-item div.inner {
+    display: block;
+  }
+
+  /* ------------------------left--------------------------- */
+  #left {
+    margin: 0;
+  }
+
+  #pick {
+    height: auto;
+    margin: 0 10px 20px 10px;
+    padding: 0;
+    left: 0;
+  }
+
+  #pick img {
+    width: 100%;
+    left: 0;
+    margin: 0;
+    height: auto;
+  }
+
+  #pick p {
+    font-size: 13px;
+  }
+
+  #pick p img {
+    width: 15px;
+    height: 15px;
+  }
+
+  #info {
+    margin-top: 20px;
+    padding: 0;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin: 0 10px 20px 10px;
+  }
+
+  #info h2 {
+    font-size: 30px;
+    letter-spacing: 10px;
+    font-size: 15px;
+    margin-bottom: -15px;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .info-box {
+    margin-left: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+
+  .infobox a {
+    font-size: 10px;
+    margin-bottom: 0;
+    bottom: 0;
+  }
+
+  .infobox img {
+    display: none;
+  }
+
+  .info-item {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+
+  .info-item .day {
+    width: 50px;
+    height: 30px;
+    padding-right: 20px;
+    border-right: 1px dotted #000;
+    text-align: center;
+    padding-top: 0;
+  }
+
+  .place {
+    padding-left: 10px;
+    padding-top: 0;
+  }
+
+
+  .place a {
+    display: none;
+  }
+
+  .infolink {
+    height: 30px;
+    background-color: #000;
+    text-align: center;
+    margin: 0 100px 0 100px;
+  }
+
+  .infolink a {
+    color: #fff;
+    font-size: 10px;
+    position: relative;
+    top: 0;
+    letter-spacing: 5px;
+  }
+
+
+  /* ------------------------right--------------------------- */
+  #right {
+    margin: 0;
+    width: 100%;
+  }
+
+  #news {
+    margin: 0 20px;
+    margin-bottom: 10px;
+  }
+
+  #news h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #news .news-item {
+    height: auto;
+    font-size: 11px;
+    line-height: 1;
+    padding: 5px 0;
+  }
+
+  .news-item a {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  #news .day {
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+  #news .news-title {
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+
+
+  #news .newslink {
+    text-align: center;
+  }
+
+  #news .newslink a {
+    margin: 0;
+    top: 0;
+    background: #390cfb;
+    color: #fff;
+    padding: 2px;
+    font-size: 10px;
+  }
+
+  #news .newslink img {
+    display: none;
+  }
+
+
+  #right a img {
+    width: 93%;
+    height: 125px;
+    margin: 0 15px;
+  }
+
+  #sns {
+    display: none;
+  }
+
+  /* ------------------------#about--------------------------- */
+  #about {
+    width: 95%;
+    height: auto;
+    margin: -35px 10px 0 10px;
+    left: 0;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  #about h2 {
+    font-size: 23px;
+    letter-spacing: 3px;
+    margin: 0;
+    text-align: center;
+  }
+
+  #about p {
+    font-size: 15px;
+    line-height: 1.2;
+    letter-spacing: 1.6px;
+    margin-top: -5px;
+    margin-left: 0;
+  }
+
+  #about div .about-link {
+    font-size: 10px;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  #about div a {
+    position: relative;
+    bottom: -10px;
+    background: #390cfb;
+    color: #fff;
+    padding: 2px;
+  }
+
+  #about img {
+    display: none;
+  }
+
+  /* ------------------------footer--------------------------- */
+  #ticket {
+    width: 95%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 0;
+    margin: 0 10px;
+  }
+
+  #ticket h2 {
+    font-size: 23px;
+    margin-bottom: -15px;
+    text-align: center;
+  }
+
+  #ticket p {
+    font-size: 15px;
+    margin-left: 0;
+  }
+
+  #ticket div.button {
+    width: 100%;
+    padding: 3px;
+  }
+
+  #ticket ul {
+    display: block;
+    margin: 0 100px;
+  }
+
+  #ticket ul li {
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #ticket ul li a {
+    color: #352f2e;
+    font-size: 12px;
+  }
+
+  #ticket .ticket-link {
+    margin-top: -10px;
+  }
+
+  #ticket .ticket-link a {
+    font-size: 11px;
+    background: #390cfb;
+    color: #fff;
+    padding: 2px;
+    bottom: 0;
+    margin-left: 0;
+  }
+
+  #ticket .ticket-link img {
+    display: none;
+  }
+
+  /* ------------------------footer--------------------------- */
+  footer {
+    margin-top: 15px;
+  }
+
+  div.footer-box {
+    width: 100%;
+  }
+
+  footer .address {
+    margin-left: 0;
+  }
+
+  footer .ftinner {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  footer h3 {
+    font-size: 15px;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  footer .ftinner div {
+    display: none;
+  }
+
+  footer .address p {
+    text-align: center;
+  }
+
+  footer .footer-sns {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  footer .footer-sns ul {
+    justify-content: center;
+  }
+
+  footer .footer-sns ul li a {
+    margin-right: 5px;
+    margin-left: 3px;
+  }
+
+  footer .footer-sns img {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+
+  .top-link a img {
+    width: 30px;
+    height: 30px;
+    margin-left: 0;
+    position: fixed;
+    right: 10px;
+    bottom: 5px;
+  }
+
+  footer .footer-sns img {
+    margin: 0;
+  }
+
+  #site-map {
+    display: none;
+  }
+
+  /* ---------------about------------------------- */
+
+  .tkyou-about {
+    margin-top: 0;
+    margin: 0 auto;
+  }
+
+  .tkyou-about img {
+    width: 100%;
+    height: auto;
+    margin-top: -200px;
+    margin-left: 0;
+  }
+
+  .tkyou-about h2 {
+    font-size: 30px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+
+  .tkyou-about p {
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 13px;
+    line-height: 1.2;
+  }
+
+  /* ------------------conductor--------------------- */
+  .conductor {
+    width: 100%;
+    height: auto;
+    margin: 20px 0 0 3px;
+    justify-content: center;
+  }
+
+  .conductor h3 {
+    margin-left: -10px;
+    font-size: 13px;
+  }
+
+  .conductor h4 {
+    margin-left: 25px;
+    font-size: 13px;
+    bottom: 10px;
+  }
+
+  .conductor img {
+    width: 120px;
+    margin-right: 10px;
+  }
+
+  .conductor p {
+    letter-spacing: 0;
+    font-size: 12px;
+    line-height: 1.2;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .concertmaster {
+    width: 100%;
+    height: auto;
+    margin: 20px 0 -15px 3px;
+    justify-content: center;
+  }
+
+  .concertmaster h3 {
+    font-size: 13px;
+  }
+
+  .concertmaster h4 {
+    margin-left: 25px;
+    font-size: 13px;
+    bottom: 10px;
+  }
+
+  .concertmaster img {
+    width: 135px;
+    margin-left: 10px;
+  }
+
+  .concertmaster p {
+    letter-spacing: 0;
+    font-size: 12px;
+    line-height: 1.2;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  /* ------------------------infomation--------------------------- */
+  #tkyou-main {
+    margin: 0;
+  }
+
+  .infomation h2 {
+    font-size: 20px;
+    margin-top: -130px;
+    text-align: center;
+  }
+
+  .info-top {
+    text-align: center;
+  }
+
+  .info-top img {
+    margin: 0;
+    width: 93%;
+  }
+
+  .infomation-box {
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+  }
+
+  .infomation-box img {
+    width: auto;
+    height: 100px;
+    margin: 0;
+  }
+
+  .info-about {
+    width: 100%;
+  }
+
+  .info-about h3 {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+
+  .info-about ul {
+    margin-bottom: 5px;
+  }
+
+  .info-about li {
+    font-size: 12px;
+    line-height: 1;
+    margin: 0;
+  }
+
+  .info-about .shousai {
+    width: 70%;
+    height: auto;
+    font-size: 10px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+  }
+
+  .info-about .info-ticket {
+    width: 70%;
+    height: auto;
+    font-size: 10px;
+    margin: 0 auto;
+  }
+
+  .page-link ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .page-link ul li {
+    width: 19px;
+    height: 19px;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+
+
+
+  /* ------------------------news--------------------------- */
+  .news-top h2 {
+    font-size: 20px;
+    margin-top: -100px;
+    text-align: center;
+  }
+
+  .news-top p {
+    font-size: 10px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .news-contents p {
+    font-size: 10px;
+  }
+
+  .news-all {
+    right: 5px;
+  }
+
+  .news-all div {
+    font-size: 10px;
+    width: 75px;
+    height: auto;
+    padding: 3px auto;
+  }
+
+  .news-all a {
+    top: 0;
+  }
+
+  .news-all .news1::after {
+    display: none;
+  }
+
+  .news-box {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 0;
+    padding-top: 5px;
+  }
+
+  .news-days {
+    width: 100px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .news-list {
+    width: auto;
+  }
+
+  .news-box-last {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .news-notice {
+    right: 5px;
+  }
+
+  .news-notice div {
+    font-size: 10px;
+    width: 75px;
+    height: auto;
+    padding: 3px auto;
+  }
+
+  .news-notice a {
+    top: 0;
+  }
+
+  .news-notice .news2::after {
+    display: none;
+  }
+
+  .news-ticket {
+    right: 5px;
+  }
+
+  .news-ticket div {
+    font-size: 10px;
+    width: 75px;
+    height: auto;
+    padding: 3px auto;
+  }
+
+  .news-ticket a {
+    top: 0;
+  }
+
+  .news-ticket .news3::after {
+    display: none;
+  }
+
+  /* -----------------------contact--------------------------- */
+  .contact-main h2 {
+    font-size: 20px;
+    margin-top: -120px;
+    text-align: center;
+  }
+
+  .contact-main div {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-main p {
+    font-size: 12px;
+    bottom: 0;
+    text-align: center;
+  }
+
+  .contact-main h3 {
+    width: 90%;
+    font-size: 13px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .contact-top {
+    display: block;
+    margin-left: 30px;
+  }
+
+  .contact h4 {
+    font-size: 15px;
+  }
+
+  .contact-top img {
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+  }
+
+  .contact-item1 {
+    margin: 0;
+  }
+
+  .contact-item3 {
+    margin: 0;
+  }
+
+  .contact-bottom {
+    display: block;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .contact-item {
+    margin-left: 30px;
+  }
+
+  .contact-map {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  #ticket-buy h2 {
+    width: 90%;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px auto 10px auto;
+  }
+
+  .buy-button {
+    display: block;
+  }
+
+  .buy-button div {
+    width: 80%;
+    height: auto;
+    margin: 5px auto;
+  }
+
+  .buy-button div a {
+    top: 0;
+  }
+
+  #ticket-buy h4 {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .buy-tel {
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .buy-time {
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+}
